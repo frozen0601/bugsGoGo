@@ -1,0 +1,155 @@
+html, body {
+    font-family: "Press Start 2P";
+}
+body, .jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, yellow , red);
+
+}
+.text-giant {
+    font-size: 40px;
+}
+.text-right {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 550px;
+    pointer-events: none;
+}
+.text-left {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 550px;
+    pointer-events: none;
+}
+.vl {
+    border-left: 6px solid rgb(255, 255, 255);
+    height: 80%;
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+.btn-crazy {
+    display: none;
+    position: absolute;
+    top: 43%;
+    left: 46%;
+    transition: 0.1s ease all;
+    width: 100px;
+    height: 100px;
+}
+.btn-teamA {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    border: 3px solid black;
+
+    width: 150px;
+    height: 150px;
+
+}
+.btn-teamB {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    border: 3px solid black;
+
+    width: 150px;
+    height: 150px;
+
+}
+.btn-start {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transition: 0.1s ease all;
+    background: white;
+    color: black;
+    border: 3px solid black;
+
+    width: 340px;
+    height: 150px;
+
+}
+.time {
+    font-size: 60px;
+    position: absolute;
+    top: 30px;
+    left: 46%;
+    pointer-events: none;
+}
+.score {
+    font-size: 60px;
+    pointer-events: none;
+    padding-top: 5%;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.high-score {
+    font-size: 60px;
+    position: absolute;
+    bottom: 30px;
+    left: 2%;
+    pointer-events: none;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+.my-time-text {
+    font-size: 30px;
+    pointer-events: none;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    animation: shake .2s infinite;
+}
+@keyframes shake {
+10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+}
+
+20%, 80% {
+    transform: translate3d(1px, 1px, 0);
+}
+
+30%, 50%, 70% {
+    transform: translate3d(-3px, -1px, 0);
+}
+
+40%, 60% {
+    transform: translate3d(3px, 0, 0);
+}
+}
+.home-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.scoreboard {
+    background-color:beige;
+    max-width: 12%;
+}
+
+.scoreboard > p {
+    background-color:beige;
+
+}

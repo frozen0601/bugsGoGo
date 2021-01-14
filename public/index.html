@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title -->
+    <title>bugsGoGo</title>
+    <!-- Links -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<section>
+    <p class="score" id="score">0 - 0</p>
+    <div class="vl" id="vl"></div>
+    <div id="scoreboard" class="scoreboard"><p>team A team B</p></div> 
+    
+    <button type="button" id="crazyButton1" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton2" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton3" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton4" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton5" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton6" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton7" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton8" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="crazyButton9" class="btn-crazy btn btn-lg btn-danger"> BUG
+    </button>
+    <button type="button" id="ButtonA" class="btn-teamA btn btn-lg">Team A
+    </button>
+    <button type="button" id="ButtonB" class="btn-teamB btn btn-lg">Team B
+    </button>
+    <button type="button" id="startButton" class="btn-start btn btn-lg">Start
+    </button>
+    <a href="#" id="timer" class="nes-btn is-warning home-btn">00:00</a>
+
+    <div class="starting-section">
+
+    </div>
+</section>
+    <!-- Socket.IO Javacript -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+</body>
+</html>
